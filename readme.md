@@ -14,7 +14,7 @@ By default the global language used by mycroft-core will be used
 ```json
   "stt": {
     "module": "ovos-stt-plugin-privox",
-    "ovos-stt-plugin-privox": {"quality": "fast"}
+    "ovos-stt-plugin-privox": {"quality": "fast", "key": "SECRET"}
   }
  
 ```
