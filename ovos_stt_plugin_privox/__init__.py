@@ -109,7 +109,7 @@ class PrivoxSTT(STT):
         super().__init__(*args, **kwargs)
         # {fast, normal, better, best, xcribe or xcribe2}
         self.quality = self.config.get("quality", "fast")
-        self.key = self.config.get("key") or "F527A05CF5A98310"
+        self.key = self.config.get("key")
 
     def execute(self, audio, language=None):
         lang = language or self.lang
